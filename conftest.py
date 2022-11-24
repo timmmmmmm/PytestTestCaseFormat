@@ -7,5 +7,6 @@ def supply_url():
     return "https://reqres.in/api"
 
 
+@pytest.fixture
 def get_base_url():
-    return "https://btse.co"
+    return "https://www.btse.co"
